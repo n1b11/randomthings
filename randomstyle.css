@@ -1,0 +1,82 @@
+html{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}  
+
+#header{
+    color:blanchedalmond;
+    height: 200px;
+}
+h1{ 
+    text-align: center;
+    color: brown;
+}
+
+.image-display{
+    display:flex;
+    justify-content: center;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.image-box{
+    background-color: burlywood;
+    width: 50%;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px black;
+}
+.image-label{
+    background-color: maroon;
+    width: 50%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-label>h2{
+    color: white;
+}
+
+#boeing-pic{
+    background-color: maroon;
+}
+
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#action-box{ 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+button{ 
+    width: 30%;
+    background-color: maroon; 
+    color: white;
+    border: 0px solid maroon;
+    border-radius: 0px;
+    height: 30%; 
+    border-radius: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+
+}
+
+button:hover{
+    transform: translateY(5px)
+}
